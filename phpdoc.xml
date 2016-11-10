@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+  <parser>
+    <target>./data/docs</target>
+  </parser>
+  <transformer>
+    <target>./data/docs</target>
+  </transformer>
+  <transformations>
+    <template name="responsive" />
+  </transformations>
+  <files>
+    <directory>.</directory>
+    <ignore>tests/*</ignore>
+    <ignore>coverage/*</ignore>
+  </files>
+</phpdoc>

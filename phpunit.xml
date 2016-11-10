@@ -1,0 +1,17 @@
+<phpunit bootstrap="./tests/bootstrap.php"
+    colors="true"
+    stopOnError="true"
+    stopOnFailure="true">
+    <testsuites>
+        <testsuite name="Cache">
+          <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory>./Stores</directory>
+            <directory>./Connectors</directory>
+        </whitelist>
+    </filter>
+</phpunit>
