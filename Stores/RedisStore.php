@@ -1,12 +1,15 @@
 <?php
+
+namespace Lz\Cache\Stores;
+
 /**
  * Redis 仓库
  *
  * @package     Cache
  * @subpackage  Stores
- * @author      黄邦龙
+ * @author      Longzhi
  */
-class Cache_Stores_RedisStore implements Cache_Stores_Interface
+class RedisStore implements StoreInterface
 {
     /**
      * Redis 实例

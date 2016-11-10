@@ -1,12 +1,15 @@
 <?php
+
+namespace Lz\Cache\Connectors;
+
 /**
  * Memached 仓库
  *
  * @package     Cache
  * @subpackage  Connectors
- * @author      黄邦龙
+ * @author      Longzhi
  */
-class Cache_Connectors_MemcachedConnector
+class MemcachedConnector
 {
     public function connect(array $servers)
     {

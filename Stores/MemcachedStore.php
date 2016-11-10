@@ -1,12 +1,15 @@
 <?php
+
+namespace Lz\Cache\Stores;
+
 /**
  * memached 仓库
  *
  * @package     Cache
  * @subpackage  Stores
- * @author      黄邦龙
+ * @author      Longzhi
  */
-class Cache_Stores_MemcachedStore implements Cache_Stores_Interface
+class MemcachedStore implements StoreInterface
 {
     protected $memcached;
 

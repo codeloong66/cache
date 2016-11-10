@@ -1,6 +1,6 @@
 <?php
 
-namespace Cache\Tests\Stores;
+namespace Lz\Tests\Cache;
 
 use PHPUnit_Framework_TestCase;
 use Cache_Manager;
