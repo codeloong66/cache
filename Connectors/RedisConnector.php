@@ -1,12 +1,15 @@
 <?php
+
+namespace Lz\Cache\Connectors;
+
 /**
  * Redis 连接器
  *
  * @package     Cache
  * @subpackage  Connectors
- * @author      黄邦龙
+ * @author      Longzhi
  */
-class Cache_Connectors_RedisConnector
+class RedisConnector
 {
     public function connect(array $server)
     {

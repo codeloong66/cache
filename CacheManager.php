@@ -1,11 +1,14 @@
 <?php
+
+namespace Lz\Cache;
+
 /**
  * 缓存管理者
  *
  * @package     Cache
- * @author      黄邦龙
+ * @author      Longzhi
  */
-class Cache_Manager
+class CacheManager
 {
     /**
      * 配置

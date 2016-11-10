@@ -1,12 +1,15 @@
 <?php
+
+namespace Lz\Cache\Stores;
+
 /**
  * 缓存仓库接口
  *
  * @package     Cache
  * @subpackage  Stores
- * @author      黄邦龙
+ * @author      Longzhi
  */
-interface Cache_Stores_Interface
+interface StoreInterface
 {
     /**
      * 判断 key 是否存在
